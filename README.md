@@ -12,8 +12,8 @@ function EncodeRequest (obj) {
             }
 
 function SendMessage() {
-    console.log("***** SENDING A MESSAGE *****");
-    var  jsonObject = {
+console.log("***** SENDING A MESSAGE *****");
+var  jsonObject = {
     "UserID" : "00000000-0000-0000-0000-0000000000000",  //PROPER ID HERE
     "apikey" : "00000000-0000-0000-0000-0000000000000", //PROPER KEY HERE
     "MessagingHistory_Sender_Locator" : "0000",
